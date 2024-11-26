@@ -19,7 +19,7 @@ struct ConsoleBox
 
 ConsoleBox *consoleBox = new ConsoleBox; // Suponemos que ya está inicializado
 
-void load_script(const char* filename, bool show_script = false)
+void load_script(const char* filename, bool show_script) // No se incluye valor predeterminado aquí
 {
     string script;
     FILE* f = nullptr;
@@ -69,3 +69,4 @@ void load_script()
     scanf("%499s", filename);
     load_script(filename, true);
 }
+
