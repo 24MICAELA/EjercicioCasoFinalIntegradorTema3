@@ -47,7 +47,7 @@ void load_script(const char* filename, bool show_script) // No se incluye valor 
 
         if (show_script)
         {
-            cout << ColorConsole::fg_blue << ColorConsole::bg_white;
+            //cout << ColorConsole::fg_blue << ColorConsole::bg_white;
             cout << script << endl;
         }
 
